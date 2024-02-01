@@ -1,0 +1,37 @@
+.dropdown-toggle.postlink.dropdownmenu svg path {
+	fill: white;
+}
+
+.dropdownmenus-wrap.forumbg {
+	border-radius: 7px;
+	margin-bottom: 4px;
+	background-color: #654c22;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0, rgba(255, 255, 255, 0) 100%);
+	background-image: none;
+}
+
+.dropdown-toggle.postlink.dropdownmenu.dropdownmenu-hover, .forumbg .header a.dropdownmenu:hover {
+    background-color: #c09855;
+    color: #262626;
+}
+
+.dropdowmenu-body {
+	background-color: #262626;
+	border: 1px solid #c09855;
+	z-index: 999;
+}
+
+.dropdownmenu-item a {
+	color: white;
+	background-color: #262626;
+    font-size: 0.75rem;
+}
+
+.dropdownmenu-item a:hover {
+	background-color: #c09855;
+}
+
+/* Sharp edges look better for this style */
+.dropdown-toggle.postlink.dropdownmenu:first-child, .dropdown-toggle.postlink.dropdownmenu:last-child, .dropdowmenu-body, .dropdownmenu-item:last-child a {
+	border-radius: 0 !important;
+}

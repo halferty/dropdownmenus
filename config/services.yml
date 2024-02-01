@@ -1,0 +1,21 @@
+services:
+    halferty.dropdownmenus.listener:
+        class: halferty\dropdownmenus\event\listener
+        arguments:
+            - '@halferty.dropdownmenus.classes.handler'
+            - '@auth'
+            - '@config'
+            - '@dbal.conn'
+            - '@request'
+            - '@template'
+            - '@user'
+            - '%core.root_path%'
+            - '%core.php_ext%'
+            - '%core.table_prefix%dropdownmenus'
+        tags:
+            - { name: event.listener }
+    halferty.dropdownmenus.classes.handler:
+        class: halferty\dropdownmenus\classes\handler
+        arguments:
+            - '@dbal.conn'
+            - '%core.table_prefix%dropdownmenus'

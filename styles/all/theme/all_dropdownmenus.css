@@ -1,0 +1,104 @@
+.headerbar {
+	margin-bottom: 1.5px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.forumbg.dropdownmenus-wrap {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	padding: 0;
+}
+
+@media only screen and (max-width: 550px), only screen and (max-device-width: 550px) {
+	.forumbg.dropdownmenus-wrap {
+		display: none;
+	}
+}
+
+.dropdownmenus {
+	list-style: none;
+	display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+}
+
+.dropdown-toggle.postlink.dropdownmenu {
+	box-sizing: border-box;
+    font-size: 0.9rem;
+	display: inline-block;
+    padding: 8px 16px;
+	border: none;
+	user-select: none;
+}
+
+.dropdown-toggle.postlink.dropdownmenu span, .dropdown-toggle.postlink.dropdownmenu svg {
+	display: inline-block !important;
+	vertical-align: middle;
+	user-select: none;
+	pointer-events: none;
+}
+
+.dropdown-toggle.postlink.dropdownmenu svg {
+	height: 16px;
+}
+
+.dropdown-toggle.postlink.dropdownmenu svg path {
+	fill: white;
+}
+
+.dropdown-toggle.postlink.dropdownmenu:first-child {
+	border-bottom-left-radius: 7px;
+}
+
+.dropdown-toggle.postlink.dropdownmenu:first-child:hover {
+	border-bottom-left-radius: 0;
+}
+
+.dropdown-toggle.postlink.dropdownmenu:last-child {
+	border-bottom-right-radius: 7px;
+}
+
+.dropdown-toggle.postlink.dropdownmenu.dropdownmenu-hover, .forumbg .header a.dropdownmenu:hover {
+	cursor: pointer;
+	text-decoration: none !important;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	color: white;
+    text-decoration: none;
+	background-color: #D0E4F6;
+}
+
+.dropdowmenu-body {
+	min-width: 200px;
+	background-color: #12A3EB;
+	color: black;
+	border: 1px solid #A8D8FF;
+	border-top: none;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+
+.dropdownmenu-item {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+}
+
+.dropdownmenu-item a {
+	color: white;
+	background-color: #12A3EB;
+	padding: 8px;
+}
+
+.dropdownmenu-item:last-child a {
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+
+.dropdownmenu-item a:hover {
+	background-color: #A8D8FF;
+    text-decoration: none;
+}
+
+/* ALL! */

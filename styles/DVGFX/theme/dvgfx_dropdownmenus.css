@@ -1,0 +1,28 @@
+.dropdown-toggle.postlink.dropdownmenu svg path {
+	fill: white;
+}
+
+.dropdown-toggle.postlink.dropdownmenu.dropdownmenu-hover, .forumbg .header a.dropdownmenu:hover {
+    background-color: #d9d9d9;
+    color: #262626;
+}
+
+.dropdowmenu-body {
+	background-color: #262626;
+	border: 1px solid #d9d9d9;
+}
+
+.dropdownmenu-item a {
+	color: white;
+	background-color: #262626;
+    font-size: 0.75rem;
+}
+
+.dropdownmenu-item a:hover {
+	background-color: #d9d9d9;
+}
+
+/* Sharp edges look better for this style */
+.dropdown-toggle.postlink.dropdownmenu:first-child, .dropdown-toggle.postlink.dropdownmenu:last-child, .dropdowmenu-body, .dropdownmenu-item:last-child a {
+	border-radius: 0 !important;
+}

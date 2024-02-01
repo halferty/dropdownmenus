@@ -1,0 +1,14 @@
+{% INCLUDE 'overall_header.html' %}
+
+<h1>Dropdown Menu Settings</h1>
+
+<h2>Dropdown Menus:</h2>
+<form id="acp_board" method="post" action="{{ U_ACTION }}">
+    <fieldset>
+        {{ DROPDOWNMENUS_FORM }}
+
+        {{ S_FORM_TOKEN }}
+    </fieldset>
+</form>
+{% INCLUDEJS '@halferty_dropdownmenus/dropdownmenusadmin.js' %}
+{% INCLUDE 'overall_footer.html' %}

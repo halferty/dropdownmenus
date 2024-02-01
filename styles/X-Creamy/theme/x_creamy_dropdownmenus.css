@@ -1,0 +1,39 @@
+.dropdown-toggle.postlink.dropdownmenu {
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.dropdown-toggle.postlink.dropdownmenu svg path {
+	fill: linear-gradient(to bottom, #BBAD92 0%,#f1e3c1 100%);
+}
+
+.dropdown-toggle.postlink.dropdownmenu.dropdownmenu-hover svg path, .forumbg .header a.dropdownmenu:hover svg path {
+	fill: white;
+}
+
+.dropdown-toggle.postlink.dropdownmenu.dropdownmenu-hover, .forumbg .header a.dropdownmenu:hover {
+	background-color: #BBAD92;
+    background-image: linear-gradient(to bottom, #BBAD92 0%,#f1e3c1 100%);
+    color: white;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+
+.dropdowmenu-body {
+	background-image: black;
+	background-color: #BBAD92;
+	border: 1px solid linear-gradient(to bottom, #BBAD92 0%,#f1e3c1 100%);
+	border: 1px solid #fafafa;
+}
+
+.dropdownmenu-item a {
+	color: white;
+	background-color: black;
+    font-size: 1rem;
+}
+
+.dropdownmenu-item a:hover {
+	background-color: #BBAD92;
+	background-image: linear-gradient(to bottom, #BBAD92 0%,#f1e3c1 100%);
+	color: white !important;
+}

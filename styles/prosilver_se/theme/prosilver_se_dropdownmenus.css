@@ -1,0 +1,23 @@
+.dropdown-toggle.postlink.dropdownmenu svg path {
+	fill: white;
+}
+
+.dropdown-toggle.postlink.dropdownmenu.dropdownmenu-hover, .forumbg .header a.dropdownmenu:hover {
+    background-color: #D31141;
+}
+
+.dropdowmenu-body {
+	background-color: #7C8891;
+	border: 1px solid #0076B1;
+}
+
+.dropdownmenu-item a {
+	color: white;
+	background-color: #7C8891;
+    font-size: 0.9rem;
+}
+
+.dropdownmenu-item a:hover {
+    color: white;
+	background-color: #D31141;
+}

@@ -1,0 +1,35 @@
+.dropdown-toggle.postlink.dropdownmenu {
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.dropdown-toggle.postlink.dropdownmenu svg path {
+	fill: #2a8ff7;
+}
+
+.dropdown-toggle.postlink.dropdownmenu.dropdownmenu-hover svg path, .forumbg .header a.dropdownmenu:hover svg path {
+	fill: white;
+}
+
+.dropdown-toggle.postlink.dropdownmenu.dropdownmenu-hover, .forumbg .header a.dropdownmenu:hover {
+    background-color: #2a8ff7;
+    color: white;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+
+.dropdowmenu-body {
+	background-color: black;
+	border: 1px solid #2a8ff7;
+}
+
+.dropdownmenu-item a {
+	color: white;
+	background-color: black;
+    font-size: 1rem;
+}
+
+.dropdownmenu-item a:hover {
+	background-color: #2a8ff7;
+	color: white !important;
+}

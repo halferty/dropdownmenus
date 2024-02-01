@@ -1,0 +1,45 @@
+.dropdown-toggle.postlink.dropdownmenu svg path {
+	fill: white;
+}
+
+.dropdown-toggle.postlink.dropdownmenu {
+    font-size: 1rem;
+}
+
+.dropdown-toggle.postlink.dropdownmenu.dropdownmenu-hover, .forumbg .header a.dropdownmenu:hover {
+    background-color: #094c8a;
+}
+
+.dropdowmenu-body {
+	background-color: white;
+	border: 1px solid #094c8a;
+}
+
+.dropdownmenu-item a {
+	color: #094c8a;
+	background-color: white;
+    font-size: 1rem;
+}
+
+.dropdownmenu-item a:hover {
+    color: white;
+	background-color: #094c8a;
+}
+
+/* Rounded top corners too */
+.header.dropdownmenus {
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+
+.dropdown-toggle.postlink.dropdownmenu:first-child {
+	border-top-left-radius: 7px;
+}
+
+.dropdown-toggle.postlink.dropdownmenu:last-child {
+	border-top-right-radius: 7px;
+}
+
+.forumbg.dropdownmenus-wrap {
+	border-radius: 7px !important;
+}
